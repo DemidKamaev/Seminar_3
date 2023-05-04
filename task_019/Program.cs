@@ -6,5 +6,6 @@
 // 23432 -> да
 
 
-string? str = Console.ReadLine();
-System.Console.WriteLine(str![3]);
+string? str = Convert.ToInt32(Console.ReadLine());
+System.Console.WriteLine(str![2] == str[4]);
+System.Console.WriteLine(str![1] == str[5]);
